@@ -29,8 +29,8 @@
 					<div>
 						<input class="text-input" id="input-text" type="text" placeholder="Ingrese el texto aquí" style="width:80%;">
 						<div class="left-butons">
-							<button type="button" id="btn-encriptar">Encriptar</button>
-							<button type="button" id="btn-desencriptar">Desencriptar</button>
+							<button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+							<button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
 						</div>
 					</div>
 				</div>
@@ -41,12 +41,17 @@
 							<img src="img/robot.avif" id="img-der">
 							<h2 id="text-der" class="padd-10px">Ningún mensaje fue encontrado</h2>
 							<textarea id="text-der2" class="padd-10px" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar</textarea>
+							<button id="copiar" type="button" name="button" onclick="copy()">
+								Copiar!
+							</button>
 						</div>
 					</div>
 				</div>
 		</div>
 		<footer>
 			<h3>Desarrollado por Yosseline Apcho</h3>
-		</footer>  
+		</footer> 
+
+		<script type="text/javascript" src="js/index.js"></script> 
 	</body>
 </html>
