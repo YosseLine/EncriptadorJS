@@ -5,6 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	background: linear-gradient(rgb(221,179,255) 50%, rgb(68,45,71));
 }
 .container{
 	margin: auto;
@@ -15,6 +16,11 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.margin5{
+	margin-top: 5%;
+	background-color: #F3F5FC;
+	border-radius: 24px;
 }
 .padd-10px{
 	padding-top: 5%;
@@ -85,7 +91,7 @@ body{
 	height: 60%;
 	border-radius: 24px;
 	margin-left: 10%;
-	background: red;
+	background: #9032bb;
 }
 
 #btn-desencriptar{
@@ -95,14 +101,18 @@ body{
 	height: 60%;
 	border-radius: 24px;
 	margin-left: 10%;
-	background: yellow;
+	background: #6d00a1;
 }
 #copiar{
+	font-size: 30px;
 	padding: 24px;
 	width: 35%;
 	height: 60%;
 	border-radius: 24px;
 	display: none;
+	text-align: center;
+	background: #6d00a1;
+	margin-top: 5%;
 }
 
 @media (min-width: 992px){
@@ -116,6 +126,12 @@ body{
 	}
 	#img-der{
 		width: 40%;
-		margin-top: 8%;
+		margin-top: 0%;
+	}
+	.text-input{
+		font-size: 20px;
+	}
+	#copiar{
+		font-size: 20px;
 	}
 }
