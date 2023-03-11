@@ -1,3 +1,6 @@
+/*FOOTER*/
+@import url(footer.css);
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -6,7 +9,6 @@ body{
 .container{
 	margin: auto;
 	padding: 5px;
-	height: 650px;
 }
 .d-flex{
 	display: flex;
@@ -18,7 +20,7 @@ body{
 	padding-top: 5%;
 }
 .font-header{
-	font-size: 2.5em;
+	font-size: 2em;
 }
 .header{
 	width: 100%;
@@ -65,7 +67,6 @@ body{
 	height: auto;
 }
 #text-der{
-	font-size: 3em  !important;
 	text-align: center;
 }
 #text-der2{
@@ -107,11 +108,8 @@ body{
 		font-size: 20px;
 		width: 30%;
 	}
-	#text-der{
-		font-size: 2em !important;
-	}
 	#img-der{
-		width: 50%;
+		width: 40%;
 		margin-top: 8%;
 	}
 }
